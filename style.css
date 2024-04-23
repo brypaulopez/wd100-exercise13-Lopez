@@ -1,0 +1,18 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+label {
+    font-family: "Poppins", sans-serif;
+}
+.output-border h2{
+    border: solid 2px black;
+}
+.container-md {
+    border: solid 5px black;
+    width: 800px !important;
+}
+.col-md-7 {
+    margin: auto;
+}
