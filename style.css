@@ -9,7 +9,7 @@ label {
 .output-border h2{
     border: solid 2px black;
 }
-.container-md {
+.container-fluid {
     border: solid 2px black;
     width: 800px !important;
     box-shadow: 1px 1px 4px 5px black
@@ -20,3 +20,18 @@ label {
 button {
     width: 100% !important;
 }
+@media screen and (max-width: 375px) {
+    .container-fluid {
+      width: 100% !important;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .container-fluid {
+      width: 100% !important;
+    }
+  }
+  @media screen and (max-width: 813px) {
+    .container-fluid {
+      width: 100% !important;
+    }
+  }
