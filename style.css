@@ -10,9 +10,13 @@ label {
     border: solid 2px black;
 }
 .container-md {
-    border: solid 5px black;
+    border: solid 2px black;
     width: 800px !important;
+    box-shadow: 1px 1px 4px 5px black
 }
 .col-md-7 {
     margin: auto;
+}
+button {
+    width: 100% !important;
 }
