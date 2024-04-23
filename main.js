@@ -105,7 +105,7 @@ const lifePhase = () => {
     else if (age >=36 && age <= 60){
         document.querySelector("#output").innerHTML = "Adolescence";
     }
-    else if(age <= 0) {
+    else if(age < 0) {
         alert("Not a valid age");
     }
     else {
